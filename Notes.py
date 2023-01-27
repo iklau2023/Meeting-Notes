@@ -1,6 +1,6 @@
 a= input('What do you want to do first(read last minutes(lm) or take new(nm)):\n')
 def lm():
-    d= input('What was the date')
+    d= input('What was the date:')
     do= open(f'C:/Users/Isaac/Meeting_Notes/{d}meeting.txt','r')
     r= do.read()
     r=[r]
